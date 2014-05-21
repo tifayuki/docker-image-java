@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 MAINTAINER Feng Honglin <hfeng@tutum.co>
 
-# Install Oracle Java 7
+# Install Oracle Java 8
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:webupd8team/java
